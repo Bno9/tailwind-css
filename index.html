@@ -12,9 +12,10 @@
 
     <header class="flex justify-between items-center  bg-rose-400 w-full">
 
-        <img class="w-1/2" src="pet.png" alt="Logo PetLove Store">
+        <img class="w-1/2 xl:w-1/4" src="pet.png" alt="Logo PetLove Store">
 
-        <nav class="w-2/7 flex flex-col m-5 text-center text-purple-950 font-semibold">
+        <nav
+            class="w-2/7 flex flex-col m-5 text-center text-purple-950 font-semibold sm:text-lg sm:w-full md:flex-row md:justify-between lg:text-2xl lg:gap-4 xl:text-3xl">
             <a class="hover:text-sky-500" href="#home">Home</a>
             <a class="hover:text-sky-500" href="#produtos">Produtos</a>
             <a class="hover:text-sky-500" href="#depoimentos">Depoimentos</a>
@@ -24,7 +25,7 @@
     </header>
 
 
-    <section class="m-5 p-4 text-center font-medium" id="home">
+    <section class="m-5 p-4 text-center font-medium sm:text-lg md:text-xl" id="home">
 
         <h1 class="font-bold">PetLove Store</h1>
 
@@ -33,7 +34,7 @@
             diversão e qualidade.
         </p>
 
-        <button class="m-4 p-2 bg-green-500 rounded-full text-black font-semibold hover:bg-green-600">
+        <button class="m-4 p-2 bg-green-500 rounded-full text-black font-semibold hover:bg-green-600 hover:cursor-pointer">
             Conheça nossos produtos
         </button>
 
@@ -42,7 +43,7 @@
     </section>
 
 
-    <section class="m-5 p-4 text-center font-medium" id="produtos">
+    <section class="m-5 p-4 text-center font-medium sm:text-lg md:text-xl" id="produtos">
 
         <h2 class="font-semibold p-4 underline">Produtos</h2>
 
@@ -105,7 +106,7 @@
     </section>
 
 
-    <section class="m-5 p-5 text-center font-medium" id="depoimentos">
+    <section class="m-5 p-5 text-center font-medium sm:text-lg md:text-xl" id="depoimentos">
 
         <h2 class="p-5 font-semibold">Depoimentos</h2>
 
@@ -131,7 +132,7 @@
     </section>
 
 
-    <section class="font-medium p-5 m-5 text-center gap-4" id="contato">
+    <section class="font-medium p-5 m-5 text-center gap-4 sm:text-lg md:text-xl" id="contato">
 
         <h2 class="py-3 font-semibold">Contato</h2>
 
@@ -152,7 +153,9 @@
                 Nome
             </label>
 
-            <input class="bg-white min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-black placeholder:text-gray-500 focus:outline-none sm:text-sm/6" type="text">
+            <input
+                class="bg-white min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-black placeholder:text-gray-500 focus:outline-none sm:text-sm/6"
+                type="text">
 
 
             <label>
